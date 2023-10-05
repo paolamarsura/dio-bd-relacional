@@ -1,5 +1,5 @@
 -- Adicionar colunas de endereço à tabela "Usuarios"
-ALTER TABLE Usuarios
+ALTER TABLE usuarios
 ADD rua VARCHAR(100),
 ADD numero VARCHAR(10),
 ADD cidade VARCHAR(50),
