@@ -13,7 +13,7 @@ INNER JOIN reservas rs
 INSERT INTO viagens.destinos ( nome, descricao) VALUES 
 ('Deestino sem reserva', 'Uma bela praia com areias brancas e mar cristalino')
 
--- Tras todos os destinos e as reservas se tiverem -- 
+-- Traz todos os destinos e as reservas se tiverem -- 
 SELECT * FROM reservas rs
 RIGHT JOIN destinos des
 	ON des.id = rs.id_destino;
